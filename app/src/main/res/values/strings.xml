@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">News Feed</string>
+    <!-- Text to display in the list when there are no news Articles [CHAR LIMIT=NONE] -->
+    <string name="no_news">No newsArticles found.</string>
+    <!-- Text to display in the list when there is no internet connection [CHAR LIMIT=NONE] -->
+    <string name="no_internet">No internet connection.</string>
+    <string name="technology_section">Category: Technology</string>
+</resources>
