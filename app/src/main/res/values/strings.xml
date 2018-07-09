@@ -5,4 +5,25 @@
     <!-- Text to display in the list when there is no internet connection [CHAR LIMIT=NONE] -->
     <string name="no_internet">No internet connection.</string>
     <string name="technology_section">Category: Technology</string>
+    <string name="politics_section">Category: Politics</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Feed Settings</string>
+
+    <!-- Strings For Select Page Preference [CHAR LIMIT=30] -->
+    <string name="settings_select_page_label">Page</string>
+    <string name="settings_select_page_key" translatable="false">select_page</string>
+    <string name="settings_select_page_default" translatable="false">1</string>
+
+    <!-- Strings For Select Category Preference [CHAR LIMIT=30] -->
+    <string name="settings_category_label">News Category</string>
+    <string name="settings_category_key" translatable="false">select_category</string>
+    <string name="settings_category_default" translatable="false">@string/settings_category_politics_value</string>
+
+    <!-- Label for Select Category: Politics option [CHAR LIMIT=20] -->
+    <string name="settings_category_politics_label">Politics</string>
+    <string name="settings_category_politics_value" translatable="false">politics</string>
+
+    <!-- Label for Select Category: Technology option [CHAR LIMIT=20] -->
+    <string name="settings_category_technology_label">Technology</string>
+    <string name="settings_category_technology_value" translatable="false">technology</string>
 </resources>

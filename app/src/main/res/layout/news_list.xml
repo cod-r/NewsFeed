@@ -9,12 +9,12 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/category_text_view"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_gravity="center"
             android:textColor="#000000"
-            android:textSize="25sp"
-            android:text="@string/technology_section"/>
+            android:textSize="25sp" />
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -36,7 +36,8 @@
             android:textAppearance="?android:textAppearanceMedium" />
 
         <ProgressBar
-            android:id="@+id/progress_bar"
+            android:id="@+id/loading_indicator"
+            style="@style/Widget.AppCompat.ProgressBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true" />
